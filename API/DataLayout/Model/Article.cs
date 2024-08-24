@@ -12,39 +12,38 @@ namespace DataLayout.Model
     public class Article
     {
         [Key]
-        [Column(TypeName = "int")]
         public int ID { get; set; }
 
-        public int singularViewedCounter { get; set; }
-
-        public int pluralViewedCounter { get; set; }
-
-        [Required]
-        public Category category { get; set; }
+        public int SingularViewedCounter { get; set; }
+        public int PluralViewedCounter { get; set; }
 
         [Required]
-        public AuthorRole author {  get; set; }
+        public string AuthorId { get; set; }  // Foreign key for Author (string)
 
-        public ICollection<ArticleTag> ArticleTags { get; set; } // Many-to-Many ilişki için
-
-
-        public ICollection<Comment> comments { get; set; }
-
-        public int likeCounter { get; set; }
-
-        [Column(TypeName = "datetime2")]
-        public DateTime createDate { get; set; }
-
-        [Column(TypeName = "datetime2")]
-        public DateTime updateDate { get; set; }
-
-        [Column(TypeName = "datetime2")]
-        public DateTime editionDate { get; set; }
+        public AuthorRole Author { get; set; }  
 
         [Required]
-        public Boolean adminApproval { get; set; }
+        public int CategoryId { get; set; }  // Foreign key for Category
+        public Category Category { get; set; }
 
-        public ICollection<Image> images { get; set; }
+        public ICollection<ArticleTag> ArticleTags { get; set; }
+        public ICollection<Comment> Comments { get; set; }
+
+        public int LikeCounter { get; set; }
+
+        [Column(TypeName = "datetime2")]
+        public DateTime CreateDate { get; set; }
+
+        [Column(TypeName = "datetime2")]
+        public DateTime UpdateDate { get; set; }
+
+        [Column(TypeName = "datetime2")]
+        public DateTime EditionDate { get; set; }
+
+        [Required]
+        public bool AdminApproval { get; set; }
+
+        public ICollection<Image> Images { get; set; }
 
     }
 }

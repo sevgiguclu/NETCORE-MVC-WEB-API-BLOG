@@ -14,9 +14,14 @@ namespace DataLayout.Model
 
         [Required]
         [MaxLength(50)]
-        public string name { get; set; }
+        public string Name { get; set; }
 
-        public ICollection<AuthorRole> authors { get; set; }
+        // Category'nin birden fazla Article ile ilişkili olmasını sağlar
+        public ICollection<Article> Articles { get; set; }
+
+        public ICollection<AuthorCategory> AuthorCategories { get; set; }  // Many-to-Many ilişki için
+
+        public ICollection<userRole> Users { get; set; }
 
     }
 }

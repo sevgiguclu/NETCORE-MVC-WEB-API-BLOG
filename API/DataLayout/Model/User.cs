@@ -14,19 +14,19 @@ namespace DataLayout.Model
 
         [Required]
         [MaxLength(100)]
-        public string firstName { get; set; }
+        public string FirstName { get; set; }
 
         [Required]
         [MaxLength(100)]
-        public string lastName { get; set; }
+        public string LastName { get; set; }
 
         [MaxLength(11)]
-        public string phone {  get; set; }
+        public string Phone { get; set; }
 
-        public Notification notification { get; set; }
+        public ICollection<Notification> Notifications { get; set; }
 
         [Column(TypeName = "datetime2")]
-        public DateTime profileUpdateDate { get; set; }
+        public DateTime ProfileUpdateDate { get; set; }
 
 
 

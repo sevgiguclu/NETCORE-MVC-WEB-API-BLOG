@@ -8,9 +8,8 @@ namespace DataLayout.Model
 {
     public class userRole : User
     {
-        public ICollection<Category> articleCategoryList {  get; set; } //kullanıcının takip etmek istediği kategori listesi
-
-        public ICollection<Comment> comments { get; set; }
+        public ICollection<Category> ArticleCategoryList { get; set; }
+        public ICollection<Comment> Comments { get; set; }
 
     }
 }

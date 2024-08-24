@@ -8,10 +8,10 @@ namespace DataLayout.Model
 {
     public class ArticleTag
     {
-        public int articleID { get; set; }
-        public Article article { get; set; }
+        public int ArticleId { get; set; }
+        public Article Article { get; set; }
 
-        public int tagID { get; set; }
-        public Tag tag { get; set; }
+        public int TagId { get; set; }
+        public Tag Tag { get; set; }
     }
 }

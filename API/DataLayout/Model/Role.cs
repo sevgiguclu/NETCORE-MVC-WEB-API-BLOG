@@ -12,12 +12,11 @@ namespace DataLayout.Model
     public class Role : IdentityRole
     {
 
-        public int roleCounter { get; set; }//rolün kullanıcı sayısını tutar
-
+        public int RoleCounter { get; set; }
         [Required]
-        public Boolean roleApproval { get; set; } // rolün onayının durumunu tutar
+        public bool RoleApproval { get; set; }
 
         [Column(TypeName = "datetime2")]
-        public DateTime? roleApprovalDate { get; set; }
+        public DateTime? RoleApprovalDate { get; set; }
     }
 }

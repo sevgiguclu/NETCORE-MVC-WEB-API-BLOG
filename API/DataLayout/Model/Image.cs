@@ -11,21 +11,18 @@ namespace DataLayout.Model
     public class Image
     {
         [Key]
-        public int ID {  get; set; }
+        public int ID { get; set; }
 
         [MaxLength(100)]
-        public string title { get; set; }
+        public string Title { get; set; }
 
         [Required]
         [MaxLength(200)]
-        public string url { get; set; }
+        public string Url { get; set; }
 
         [Required]
-        [ForeignKey("articleId")]
-        public int articleId { get; set; }
-
-        [Required]
-        public Article article { get; set; }
+        public int ArticleId { get; set; }
+        public Article Article { get; set; }
 
     }
 }

@@ -14,15 +14,20 @@ namespace DataLayout.Model
         public int ID { get; set; }
 
         [MaxLength(100)]
-        public string title { get; set; }
+        public string Title { get; set; }
 
         [Required]
-        public string text { get; set; }
+        public string Text { get; set; }
 
         [Column(TypeName = "datetime2")]
-        public DateTime createdDate { get; set; }
+        public DateTime CreatedDate { get; set; }
 
         [Column(TypeName = "datetime2")]
-        public DateTime sentDate { get; set; }
+        public DateTime SentDate { get; set; }
+
+        // Foreign key for User
+        public string UserId { get; set; }
+        public User User { get; set; }  // Navigation property to User
+
     }
 }
