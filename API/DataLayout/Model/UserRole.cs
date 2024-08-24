@@ -12,10 +12,5 @@ namespace DataLayout.Model
 
         public ICollection<Comment> comments { get; set; }
 
-
-
-
-
-
     }
 }

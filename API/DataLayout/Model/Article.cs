@@ -23,13 +23,10 @@ namespace DataLayout.Model
         public Category category { get; set; }
 
         [Required]
-        [ForeignKey("userID")]
-        public int userId { get; set; }
-
-        [Required]
         public AuthorRole author {  get; set; }
 
-        public ICollection<Tag> tags { get; set; }
+        public ICollection<ArticleTag> ArticleTags { get; set; } // Many-to-Many ilişki için
+
 
         public ICollection<Comment> comments { get; set; }
 
@@ -48,13 +45,6 @@ namespace DataLayout.Model
         public Boolean adminApproval { get; set; }
 
         public ICollection<Image> images { get; set; }
-
-
-
-
-
-
-
 
     }
 }

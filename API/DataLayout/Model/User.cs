@@ -26,6 +26,7 @@ namespace DataLayout.Model
         public Notification notification { get; set; }
 
         [ForeignKey("roleID")]
+        public int roleId { get; set; }
         public Role role { get; set; }
 
         [Column(TypeName = "datetime2")]
