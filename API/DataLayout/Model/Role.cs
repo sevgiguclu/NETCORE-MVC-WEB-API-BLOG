@@ -14,7 +14,7 @@ namespace DataLayout.Model
 
         public int roleCounter { get; set; }//rolün kullanıcı sayısını tutar
 
-        public ICollection<User> users { get; set; }
+        public ICollection<User> Users { get; set; }
 
         [Required]
         public Boolean roleApproval { get; set; } // rolün onayının durumunu tutar

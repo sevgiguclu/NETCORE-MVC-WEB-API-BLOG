@@ -1,0 +1,15 @@
+C:\Users\svggl\Desktop\wissen\BlogApp\API\DataLayout\bin\Debug\net8.0\DataLayout.deps.json
+C:\Users\svggl\Desktop\wissen\BlogApp\API\DataLayout\bin\Debug\net8.0\DataLayout.runtimeconfig.json
+C:\Users\svggl\Desktop\wissen\BlogApp\API\DataLayout\bin\Debug\net8.0\DataLayout.dll
+C:\Users\svggl\Desktop\wissen\BlogApp\API\DataLayout\bin\Debug\net8.0\DataLayout.pdb
+C:\Users\svggl\Desktop\wissen\BlogApp\API\DataLayout\obj\Debug\net8.0\DataLayout.csproj.AssemblyReference.cache
+C:\Users\svggl\Desktop\wissen\BlogApp\API\DataLayout\obj\Debug\net8.0\DataLayout.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svggl\Desktop\wissen\BlogApp\API\DataLayout\obj\Debug\net8.0\DataLayout.AssemblyInfoInputs.cache
+C:\Users\svggl\Desktop\wissen\BlogApp\API\DataLayout\obj\Debug\net8.0\DataLayout.AssemblyInfo.cs
+C:\Users\svggl\Desktop\wissen\BlogApp\API\DataLayout\obj\Debug\net8.0\DataLayout.csproj.CoreCompileInputs.cache
+C:\Users\svggl\Desktop\wissen\BlogApp\API\DataLayout\obj\Debug\net8.0\DataLayout.sourcelink.json
+C:\Users\svggl\Desktop\wissen\BlogApp\API\DataLayout\obj\Debug\net8.0\DataLayout.dll
+C:\Users\svggl\Desktop\wissen\BlogApp\API\DataLayout\obj\Debug\net8.0\refint\DataLayout.dll
+C:\Users\svggl\Desktop\wissen\BlogApp\API\DataLayout\obj\Debug\net8.0\DataLayout.pdb
+C:\Users\svggl\Desktop\wissen\BlogApp\API\DataLayout\obj\Debug\net8.0\DataLayout.genruntimeconfig.cache
+C:\Users\svggl\Desktop\wissen\BlogApp\API\DataLayout\obj\Debug\net8.0\ref\DataLayout.dll
