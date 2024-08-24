@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|c:\\users\\svggl\\desktop\\wissen\\blogapp\\api\\datalayout\\model\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|solutionrelative:datalayout\\model\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|c:\\users\\svggl\\desktop\\wissen\\blogapp\\api\\datalayout\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|solutionrelative:datalayout\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|c:\\users\\svggl\\desktop\\wissen\\blogapp\\api\\datalayout\\model\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|solutionrelative:datalayout\\model\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|c:\\users\\svggl\\desktop\\wissen\\blogapp\\api\\datalayout\\model\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|solutionrelative:datalayout\\model\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Model\\UserRole.cs",
+              "RelativeDocumentMoniker": "DataLayout\\Model\\UserRole.cs",
+              "ToolTip": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Model\\UserRole.cs",
+              "RelativeToolTip": "DataLayout\\Model\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T15:03:03.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Model\\Article.cs",
+              "RelativeDocumentMoniker": "DataLayout\\Model\\Article.cs",
+              "ToolTip": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Model\\Article.cs",
+              "RelativeToolTip": "DataLayout\\Model\\Article.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAA0wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T15:01:57.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Model\\User.cs",
+              "RelativeDocumentMoniker": "DataLayout\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Model\\User.cs",
+              "RelativeToolTip": "DataLayout\\Model\\User.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T15:00:29.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Model\\Role.cs",
+              "RelativeDocumentMoniker": "DataLayout\\Model\\Role.cs",
+              "ToolTip": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Model\\Role.cs",
+              "RelativeToolTip": "DataLayout\\Model\\Role.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T14:57:24.81Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
