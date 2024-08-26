@@ -25,6 +25,9 @@ namespace DataLayout.Model
 
         public ICollection<Notification> Notifications { get; set; }
 
+        public ICollection<Comment> Comments { get; set; }  // User'ın yorumları
+
+
         [Column(TypeName = "datetime2")]
         public DateTime ProfileUpdateDate { get; set; }
 

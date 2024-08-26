@@ -11,5 +11,6 @@ namespace DataLayout.Model
         public ICollection<Category> ArticleCategoryList { get; set; }
         public ICollection<Comment> Comments { get; set; }
 
+
     }
 }

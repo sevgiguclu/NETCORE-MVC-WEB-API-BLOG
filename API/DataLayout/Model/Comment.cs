@@ -12,10 +12,11 @@ namespace DataLayout.Model
     {
         [Key]
         public int ID { get; set; }
+        public string Text { get; set; }
 
         [Required]
-        public int UserId { get; set; }  // Foreign key for UserRole
-        public userRole User { get; set; }
+        public string UserId { get; set; }  // Foreign key for User
+        public User User { get; set; }
 
         [Required]
         public int ArticleId { get; set; }  // Foreign key for Article

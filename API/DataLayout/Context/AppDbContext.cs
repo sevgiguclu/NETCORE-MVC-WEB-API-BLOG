@@ -1,4 +1,5 @@
 ﻿using DataLayout.Model;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -71,16 +72,20 @@ namespace DataLayout.Context
                 .WithMany(c => c.AuthorCategories)
                 .HasForeignKey(ac => ac.CategoryId);
 
-            modelBuilder.Entity<Comment>()
-                .HasOne(u=>u.User)
-                .WithMany(u => u.Comments)
-                .HasForeignKey(c=>c.UserId);
 
             // Comment ve Article arasındaki ilişki (Many-to-One)
             modelBuilder.Entity<Comment>()
                 .HasOne(c => c.Article)
                 .WithMany(a => a.Comments)  // Article sınıfında Comments koleksiyonunu tanımlamalısınız
-                .HasForeignKey(c => c.ArticleId);
+                .HasForeignKey(c => c.ArticleId)
+                 .OnDelete(DeleteBehavior.Restrict);
+
+            // Comment ve User arasındaki ilişkiyi tanımla
+            modelBuilder.Entity<Comment>()
+                .HasOne(c => c.User)
+                .WithMany(u => u.Comments)
+                .HasForeignKey(c => c.UserId)
+                 .OnDelete(DeleteBehavior.Restrict);
 
             // Article ve Image arasındaki ilişki (One-to-Many)
             modelBuilder.Entity<Image>()
@@ -104,11 +109,56 @@ namespace DataLayout.Context
                     j => j.HasOne<Category>().WithMany().HasForeignKey("CategoryId"),
                     j => j.HasOne<userRole>().WithMany().HasForeignKey("UserId"));
 
-            // userRole ve Comment arasındaki ilişkiyi tanımla
-            modelBuilder.Entity<userRole>()
-                .HasMany(ur => ur.Comments)
-                .WithOne(c => c.User)
-                .HasForeignKey(c => c.UserId);
+            modelBuilder.Entity<Role>().HasData(
+                new Role { Id = "1", Name = "Admin", NormalizedName = "ADMIN", RoleCounter = 1, RoleApproval = true, RoleApprovalDate = DateTime.Now },
+                new Role { Id = "2", Name = "Author", NormalizedName = "AUTHOR", RoleCounter = 2, RoleApproval = true, RoleApprovalDate = DateTime.Now },
+                new Role { Id = "3", Name = "User", NormalizedName = "USER", RoleCounter = 2, RoleApproval = true, RoleApprovalDate = DateTime.Now }
+            );
+
+            modelBuilder.Entity<Tag>().HasData(
+                new Tag { ID = 1, Name = "Teknoloji" },
+                new Tag { ID = 2, Name = "Saglık" },
+                new Tag { ID = 3, Name = "Bilim" }
+            );
+
+            modelBuilder.Entity<ArticleTag>().HasData(
+                new ArticleTag { ArticleId = 1, TagId = 1 },
+                new ArticleTag { ArticleId = 2, TagId = 3 }
+            );
+
+            modelBuilder.Entity<Category>().HasData(
+                new Category { ID = 1, Name = "Teknoloji" },
+                new Category { ID = 2, Name = "Sağlık" },
+                new Category { ID = 3, Name = "Bilim" }
+            );
+
+            modelBuilder.Entity<userRole>().HasData(
+                new userRole { Id = "1", FirstName = "John", LastName = "Doe", UserName = "johndoe", Email = "johndoe@example.com", Phone = "1234567890", ProfileUpdateDate = DateTime.Now },
+                new userRole { Id = "2", FirstName = "Jane", LastName = "Smith", UserName = "janesmith", Email = "janesmith@example.com", Phone = "0987654321", ProfileUpdateDate = DateTime.Now }
+            );
+
+            modelBuilder.Entity<Article>().HasData(
+                new Article { ID = 1,Title ="text",Text="deneme 1 2 3 .....", SingularViewedCounter = 10, PluralViewedCounter = 50, AuthorId = "3", CategoryId = 1, LikeCounter = 10, CreateDate = DateTime.Now, UpdateDate = DateTime.Now, EditionDate = DateTime.Now, AdminApproval = true },
+                new Article { ID = 2, Title = "Article 2 ", Text = "deneme 1 2 3 .....", SingularViewedCounter = 20, PluralViewedCounter = 150, AuthorId = "4", CategoryId = 3, LikeCounter = 20, CreateDate = DateTime.Now, UpdateDate = DateTime.Now, EditionDate = DateTime.Now, AdminApproval = true }
+            );
+
+            modelBuilder.Entity<Comment>().HasData(
+                new Comment { ID = 1, UserId = "1",Text="gayet başarılı", ArticleId = 1, LikeCounter = 5, CreateDate = DateTime.Now, UpdateDate = DateTime.Now, AdminApprovalDate = DateTime.Now, AdminApproval = true },
+                new Comment { ID = 2, UserId = "2",Text="güzel yazı elinize sağlık", ArticleId = 2, LikeCounter = 10, CreateDate = DateTime.Now, UpdateDate = DateTime.Now, AdminApprovalDate = DateTime.Now, AdminApproval = true }
+            );
+
+            modelBuilder.Entity<AuthorRole>().HasData(
+                new AuthorRole { Id = "3", FirstName = "Ayse", LastName = "Yılmaz", UserName = "ayseyilmaz", Email = "ayse@example.com", Phone = "1234567890", ProfileUpdateDate = DateTime.Now },
+                new AuthorRole { Id = "4", FirstName = "Mehmet", LastName = "Er", UserName = "mehmeter", Email = "mehmeter@example.com", Phone = "0987654321", ProfileUpdateDate = DateTime.Now }
+            );
+
+            modelBuilder.Entity<AuthorCategory>().HasData(
+                new AuthorCategory { AuthorRoleId = "3", CategoryId = 1 },
+                new AuthorCategory { AuthorRoleId = "4", CategoryId = 3 }
+            );
+
+
+
 
         }
 

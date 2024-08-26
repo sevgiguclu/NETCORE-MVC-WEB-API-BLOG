@@ -14,7 +14,7 @@ namespace DataLayout.Model
         
         [Required]
         [MaxLength(50)]
-        public string name { get; set; }
+        public string Name { get; set; }
 
         public ICollection<ArticleTag> ArticleTags { get; set; } // Many-to-Many ilişki için
 
