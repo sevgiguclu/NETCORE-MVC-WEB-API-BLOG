@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataLayout")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc2a68b8ae7e0b218f1eb9b848dcf8196e7f7851")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfeb31d58e7721207bf2439668f9af181c3a2c61")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataLayout")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataLayout")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

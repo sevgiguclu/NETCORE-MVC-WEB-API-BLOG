@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|c:\\users\\svggl\\desktop\\wissen\\blogapp\\api\\datalayout\\model\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|solutionrelative:datalayout\\model\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|c:\\users\\svggl\\desktop\\wissen\\blogapp\\api\\datalayout\\core\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|solutionrelative:datalayout\\core\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|c:\\users\\svggl\\desktop\\wissen\\blogapp\\api\\datalayout\\core\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|solutionrelative:datalayout\\core\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|c:\\users\\svggl\\desktop\\wissen\\blogapp\\api\\datalayout\\core\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|solutionrelative:datalayout\\core\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|c:\\users\\svggl\\desktop\\wissen\\blogapp\\api\\datalayout\\core\\irepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|solutionrelative:datalayout\\core\\irepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|c:\\users\\svggl\\desktop\\wissen\\blogapp\\api\\datalayout\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|solutionrelative:datalayout\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|c:\\users\\svggl\\desktop\\wissen\\blogapp\\api\\datalayout\\model\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|solutionrelative:datalayout\\model\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|c:\\users\\svggl\\desktop\\wissen\\blogapp\\api\\datalayout\\model\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BB2D885-FEEB-4277-B4CE-C50BBCB30E9F}|DataLayout\\DataLayout.csproj|solutionrelative:datalayout\\model\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,53 +43,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Model\\UserRole.cs",
-              "RelativeDocumentMoniker": "DataLayout\\Model\\UserRole.cs",
-              "ToolTip": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Model\\UserRole.cs",
-              "RelativeToolTip": "DataLayout\\Model\\UserRole.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Core\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DataLayout\\Core\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Core\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "DataLayout\\Core\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T15:03:03.194Z",
+              "WhenOpened": "2024-08-26T14:37:49.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Article.cs",
-              "DocumentMoniker": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Model\\Article.cs",
-              "RelativeDocumentMoniker": "DataLayout\\Model\\Article.cs",
-              "ToolTip": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Model\\Article.cs",
-              "RelativeToolTip": "DataLayout\\Model\\Article.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAA0wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T15:01:57.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Model\\User.cs",
               "RelativeDocumentMoniker": "DataLayout\\Model\\User.cs",
               "ToolTip": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Model\\User.cs",
               "RelativeToolTip": "DataLayout\\Model\\User.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T15:00:29.334Z",
+              "WhenOpened": "2024-08-26T14:33:51.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Core\\IRepository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "DataLayout\\Core\\IRepository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Core\\IRepository\\IUserRepository.cs",
+              "RelativeToolTip": "DataLayout\\Core\\IRepository\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T14:32:42.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Core\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "DataLayout\\Core\\Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Core\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "DataLayout\\Core\\Repository\\GenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T14:17:36.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Model\\Role.cs",
-              "RelativeDocumentMoniker": "DataLayout\\Model\\Role.cs",
-              "ToolTip": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Model\\Role.cs",
-              "RelativeToolTip": "DataLayout\\Model\\Role.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Core\\IRepository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "DataLayout\\Core\\IRepository\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\svggl\\Desktop\\wissen\\BlogApp\\API\\DataLayout\\Core\\IRepository\\IGenericRepository.cs",
+              "RelativeToolTip": "DataLayout\\Core\\IRepository\\IGenericRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T14:57:24.81Z",
+              "WhenOpened": "2024-08-26T13:59:57.616Z",
               "EditorCaption": ""
             }
           ]
